@@ -1,0 +1,50 @@
+{
+  "requestsFinished": 0,
+  "requestsFailed": 1,
+  "requestsRetries": 1,
+  "requestsFailedPerMinute": 26,
+  "requestsFinishedPerMinute": 0,
+  "requestMinDurationMillis": null,
+  "requestMaxDurationMillis": 0,
+  "requestTotalFailedDurationMillis": 295,
+  "requestTotalFinishedDurationMillis": 0,
+  "crawlerStartedAt": "2025-07-01T03:52:23.114Z",
+  "crawlerFinishedAt": "2025-07-01T03:52:25.211Z",
+  "statsPersistedAt": "2025-07-01T03:52:25.211Z",
+  "crawlerRuntimeMillis": 2277,
+  "crawlerLastStartTimestamp": 1751341942934,
+  "requestRetryHistogram": [
+    null,
+    null,
+    null,
+    1
+  ],
+  "statsId": 0,
+  "requestAvgFailedDurationMillis": 295,
+  "requestAvgFinishedDurationMillis": null,
+  "requestTotalDurationMillis": 295,
+  "requestsTotal": 1,
+  "requestsWithStatusCode": {},
+  "errors": {
+    "/home/sandip/Documents/pryzr/src/scraper/utils/blocking-dectection.ts:7:24": {
+      "missing error code": {
+        "Error": {
+          "Captcha is displayed! Retrying...": {
+            "count": 1
+          }
+        }
+      }
+    }
+  },
+  "retryErrors": {
+    "/home/sandip/Documents/pryzr/src/scraper/utils/blocking-dectection.ts:7:24": {
+      "missing error code": {
+        "Error": {
+          "Captcha is displayed! Retrying...": {
+            "count": 3
+          }
+        }
+      }
+    }
+  }
+}
